@@ -2,6 +2,7 @@
 import react, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { handlers } from '../mocks/handlers';
+console.log(handlers)
 
 const Character = () => {
     const [character, setCharacter] = useState(null);

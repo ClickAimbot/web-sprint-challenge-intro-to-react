@@ -10,9 +10,9 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <Character className="App">
-      <h1 className="Header">Characters</h1>
-    </Character>
+    <div className="App">
+      <Character className="Header">Characters</Character>
+    </div>
   );
 }
 
