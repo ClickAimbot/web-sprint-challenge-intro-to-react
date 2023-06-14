@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Character from "./components/Character"
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -9,9 +10,9 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <div className="App">
+    <Character className="App">
       <h1 className="Header">Characters</h1>
-    </div>
+    </Character>
   );
 }
 
