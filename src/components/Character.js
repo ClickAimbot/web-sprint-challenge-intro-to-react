@@ -16,15 +16,12 @@ const Character = () => {
     }, [])
 
     return (
-        <div>
-            {character ? (
-              <div>
-                <h2>{character.name}</h2>  
-                <p>{character.height}</p>
-              </div>  
-            ) : (
-                <p>Loading Character Data...</p>
-            )}
+        <div className ="character">
+            <h1>Characters of the force</h1>
+            {characters.map(character => {
+                return 
+            })}
+            
         </div>
     )
 }
